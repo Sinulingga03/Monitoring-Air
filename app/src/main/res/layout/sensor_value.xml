@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="8dp"
+    app:cardCornerRadius="4dp"
+    android:layout_marginTop="2dp"
+    android:layout_marginStart="4dp"
+    android:layout_marginEnd="4dp"
+    android:background="@color/cardview_shadow_start_color">
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="1,2,3,4">
+
+            <TableRow
+                android:background="@color/agakblue">
+
+            <TextView
+                android:id="@+id/tvTimestamp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="(HH:mm:ss)|dd-MM-yyyy"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:padding="10dp"
+                android:layout_column="1"/>
+
+            <TextView
+                android:id="@+id/tvAcidity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="30.00"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:padding="10dp"
+                android:gravity="center_horizontal"
+                android:layout_column="1"/>
+            <TextView
+                android:id="@+id/tvTemprature"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="30.00"
+                android:gravity="center_horizontal"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:padding="10dp"
+                android:layout_column="1"/>
+
+            <TextView
+                android:id="@+id/tvTurbidity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="100.00"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:padding="10dp"
+                android:layout_column="1"/>
+            </TableRow>
+        </TableLayout>
+
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Monitoring Air Using IoT</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="bullet1">\u2022 Bahasa Pemograman/Langguage: Kotlin, C, XML</string>
+    <string name="bullet2">\u2022 Hardware : ESP32 DevKIT V1, Sensor Turbdidity DFROBOT V 1.0,Sensor PH air RDD,\nSensor Suhu Air DS18B20</string>
+    <string name="bullet3">\u2022 Database/Backend :FireBase Raltime Database \n(Free Billing) dan Bahasa Kotlin</string>
+    <string name="txtCredits"><a href="https://github.com/Sinulingga03">Source Code Dokumentasi Github</a></string>
+    <string name="txtCredits1"><a href="https://www.youtube.com/channel/UCfwmoL78F7SR4-yutHMCKRw">Kunjungi Channel Youtube Saya Tentang Demo Aplikasi dan Iot Tugas Akhir saya</a></string>
+    <string name="txtCredits2"><a href="https://github.com/Sinulingga03">Github</a></string>
+
+
+    <string name="intro">halo👋, nama saya Mardo Riski Sinulingga, Ini adalah project tugas akhir saya sebagai mahasiswa Teknik Informatika Unima Angkatan 2019 Hope You can solve your own Problem Within. And LETS CONECTED!</string>
+</resources>

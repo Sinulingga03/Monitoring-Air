@@ -1,0 +1,87 @@
+{
+  "project_info": {
+    "project_number": "291904816956",
+    "firebase_url": "https://monitoring-air-8b41c-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "monitoring-air-8b41c",
+    "storage_bucket": "monitoring-air-8b41c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:291904816956:android:f89913c72098b12e424039",
+        "android_client_info": {
+          "package_name": "com.example.monitoringair"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBByCnfh5y_UFxLmWzZdO6rTDCaDQjQ2gk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:291904816956:android:697aa4d0225c63fc424039",
+        "android_client_info": {
+          "package_name": "com.example.prototypemonitor2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBByCnfh5y_UFxLmWzZdO6rTDCaDQjQ2gk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:291904816956:android:3d301780939b9d10424039",
+        "android_client_info": {
+          "package_name": "com.example.prototypemonitoringair"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBByCnfh5y_UFxLmWzZdO6rTDCaDQjQ2gk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:291904816956:android:759c875059594e62424039",
+        "android_client_info": {
+          "package_name": "com.example.prototypinglagila"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBByCnfh5y_UFxLmWzZdO6rTDCaDQjQ2gk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

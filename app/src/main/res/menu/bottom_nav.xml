@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/Home"
+        android:title="Home"
+        android:icon="@drawable/baseline_home_24"/>
+    <item android:title="Data Log"
+        android:id = "@+id/Datalogging"
+        android:icon = "@drawable/baseline_format_list_bulleted_24"/>
+    <item android:title="chart"
+        android:id = "@+id/Chart"
+        android:icon = "@drawable/baseline_area_chart_24"/>
+    <item android:title="About Me"
+        android:id= "@+id/Author"
+        android:icon="@drawable/baseline_person_24"/>
+</menu>
