@@ -61,6 +61,7 @@ class Home : Fragment() {
                 text = it
             }
         }
+
         val parameter : TextView? = view?.findViewById(R.id.parameter1)
         parameter?.apply {
             val acidity = sensor.acidity
@@ -70,17 +71,17 @@ class Home : Fragment() {
                 val progressValue = if (it >= 0.1) it else 0f
 
                 text = when (progressValue.toDouble()){
-                    in 0.1..6.4 -> {
+                    in 0.0..6.49 -> {
                         setTextColor(Color.RED)
                         "Asam"
                     }
 
-                    in 6.5..8.5 -> {
+                    in 6.50..8.50 -> {
                         setTextColor(Color.BLUE)
                         "Netral"
                     }
 
-                    in 8.6..14.00 -> {
+                    in 8.51..14.00 -> {
                         setTextColor(Color.MAGENTA)
                         "basa"
                     }
@@ -94,7 +95,7 @@ class Home : Fragment() {
             val temperature = sensor.temperature
             temperature?.let {
                 text = when (it.toDouble()){
-                    in 0.0..19.9 -> {
+                    in 0.0..19.99 -> {
                         setTextColor(Color.BLUE)
                         "Suhu Rendah"
                     }
@@ -103,7 +104,7 @@ class Home : Fragment() {
                         "Suhu Optimal"
                     }
 
-                    in 30.00..50.00 -> {
+                    in 30.01..100.00 -> {
                         setTextColor(Color.RED)
                         "Suhu Tinggi!"
                     }
@@ -116,15 +117,15 @@ class Home : Fragment() {
             val turbidity = sensor.turbidity
             turbidity?.let {
                 text = when (it.toDouble()){
-                    in 1.00 .. 5.00 ->{
+                    in 00.00 .. 05.00 ->{
                         setTextColor(Color.BLUE)
-                        "rendah"
+                        "Rendah"
                     }
-                    in 6.00 .. 50.00 ->{
+                    in 05.01 .. 25.99 ->{
                         setTextColor(Color.YELLOW)
-                        "sedang"
+                        "Sedang"
                     }
-                    in 51.00 .. 100.00 ->{
+                    in 26.00 .. 100.00 ->{
                         setTextColor(Color.RED)
                         "Tinggi"
                     }
@@ -132,7 +133,6 @@ class Home : Fragment() {
                 }
             }
         }
-
     }
     //handle frontend HoleIndicator and get data into sensor
     @SuppressLint("SuspiciousIndentation")
@@ -155,13 +155,13 @@ class Home : Fragment() {
                     val progressValue = if (it >= 0) it else 0f
                     indicatorProgress.setProgressWithAnimation(progressValue,1000)
                     when (progressValue.toDouble()){
-                        in 0.1 ..6.4 ->{
+                        in 0.00 ..6.49 ->{
                             progressBarColor = Color.RED
                         }
-                        in 6.5 .. 8.5 ->{
+                        in 6.50 .. 8.59 ->{
                             progressBarColor = Color.BLUE
                         }
-                        in 8.6 ..14.0->{
+                        in 8.60 ..14.00->{
                             progressBarColor = Color.MAGENTA
                         }
                     }
@@ -187,10 +187,10 @@ class Home : Fragment() {
 
                     when(it.toDouble()){
 
-                        in 0.0..19.9 -> {
+                        in 00.00..19.99 -> {
                            progressBarColor = Color.BLUE
                         }
-                        in 20.00..30.00 -> {
+                        in 20.00..29.99 -> {
                             progressBarColor= Color.GREEN
                         }
                         in 30.00..50.00 -> {
@@ -220,13 +220,13 @@ class Home : Fragment() {
 
                     when (it.toDouble()){
 
-                        in 1.00 .. 5.00 ->{
+                        in 00.00 .. 5.00 ->{
                             progressBarColor = Color.BLUE
                         }
-                        in 6.00 .. 50.00 ->{
+                        in 05.01 .. 25.99 ->{
                             progressBarColor = Color.YELLOW
                         }
-                        in 51.00 .. 100.00 ->{
+                        in 26.00 .. 100.00 ->{
                             progressBarColor = Color.RED
                         }
                     }
